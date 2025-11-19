@@ -1,0 +1,30 @@
+Three bacterial genomes downloaded from NCBI (all between 2–5 Mbp in length) were used for this analysis: 
+campylobacter.fasta
+e-coli.fasta
+streptococcus.fasta
+
+For every IR detected, the program recorded:
+- IR length
+- IR sequence
+- Left and right IR positions (start and end)
+
+Results were automatically exported to a <filename>_inverted_repeats.txt report.
+
+Genome 1 (E. coli)
+Total inverted repeats detected: 22225 inverted repeats
+IRs were distributed across the entire chromosome, with no strong clustering pattern.
+Most repeats were 4 bp, consistent with random occurrence in large genomes.
+
+Genome 2 (Campylobacter)
+Total inverted repeats detected: 14738 inverted repeats
+Similar to genome 1, short IRs were found frequently, while 6-bp IRs were less common.
+Some IRs appeared in pairs separated by 500–2000 bp, indicating possible transposon activity.
+
+Genome 3 (Streptococcus)
+Total inverted repeats detected: 9469 inverted repeats
+This genome showed several IR clusters, including multiple occurrences of identical 5-bp repeats, which may correspond to insertion sequences
+
+Comparative Analysis
+Across all three genomes, the following trends were observed:
+- Short IRs (4 bp) were abundant, largely due to chance in large sequences.
+- Longer IRs (6 bp) were relatively rare, which increases their significance.
